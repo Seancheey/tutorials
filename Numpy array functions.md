@@ -1,4 +1,4 @@
-﻿
+
 Numpy array functions
 ===
 Here I will discuss a bunch of simple functions in numpy about array. By default, I assume that numpy is imported as `import numpy as np`.
@@ -49,3 +49,6 @@ a = a.reshape(-1,3) # reshape t matrix with 3 columns
 So to answer the question in the 2nd section, we can simply use `a = a.reshape(-1,1)` to make an array single-line vertical matrix.
 
 > Written with [StackEdit](https://stackedit.io/).
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTU1NTI0NTY0N119
+-->
