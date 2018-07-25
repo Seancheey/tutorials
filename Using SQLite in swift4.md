@@ -1,4 +1,4 @@
-﻿Using SQLite in swift4
+Using SQLite in swift4
 =======
 1: Importing SQLite3
 ---
@@ -79,3 +79,6 @@ while sqlite3_step(statement) == SQLITE_ROW{
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTg3MDk0NTIxNF19
+-->
