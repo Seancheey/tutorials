@@ -3,6 +3,7 @@ Configuring V2Ray on Linux server
 
 ***Note:*** This is just a quick note of step-to-step instructions to install and configure v2ray. To learn more about it, check http://v2ray.com for extra information.
 
+
 1: Install V2Ray with official shell script:
 ---
 ```shell
@@ -55,5 +56,5 @@ service v2ray status
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTExMTExMTk2XX0=
+eyJoaXN0b3J5IjpbLTEwOTkwNzg1NDZdfQ==
 -->
