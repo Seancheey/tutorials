@@ -39,7 +39,9 @@ method:password@server:port
 aes-256-cfb:123pass@123.123.123.123:37123
 ```
 shadowsocksR:
-```server:port:protocol:method:obfs:password_base64/?suffix_base64```
+```
+server:port:protocol:method:obfs:password_base64/?suffix_base64
+```
 
 Note that `suffix_base64` part is again encoded in base64. It contains parts like `obfuscation parameters`, `protocol parameters`, `remarks` etc. Before encoded, it is like this:
 ```
@@ -75,5 +77,5 @@ Now we have finally finished generating the sharing text.
 ---
 There are number of ways you can upload this text onto internet. You can use [netlify](https://app.netlify.com), [Github Gist](https://gist.github.com) or you own linux server.  After posting the sharing text onto internet, you can type the URL with http:// or https:// protocol to access the subscription. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NTIzNzYzNF19
+eyJoaXN0b3J5IjpbLTIwNzAzOTE1NTBdfQ==
 -->
