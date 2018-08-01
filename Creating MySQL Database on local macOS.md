@@ -24,7 +24,7 @@ Before using MySQL, I recommend you to change your password, but it is not neces
 mysqladmin -u[user] -p[old password] password
 ```
 
-mysql command basic format: `mysql -u[user] -p[password] [optional database]
+mysql command basic format: `mysql -u[user] -p[password] -h[host address] [optional database]
 `. Notice that there is **no space between options and values**, otherwise the program my recognize your password as database name.
 
 By default, mysql's admin user is root, and it has no password. So you can basically connect to the database by:
@@ -32,6 +32,10 @@ By default, mysql's admin user is root, and it has no password. So you can basic
 mysql -uroot
 ```
 
+Or if you are connecting to remote sql server, for example, use:
+```
+mysql -uroot -p123123 -h192.168.0.12 my_database
+```
 
 3: Create a new database
 ---
@@ -42,5 +46,5 @@ mysql>use [dbname];
 
 Then you can do whatever you want with it :/....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzUwMTkzNDBdfQ==
+eyJoaXN0b3J5IjpbLTY5ODMwNzUwNl19
 -->
